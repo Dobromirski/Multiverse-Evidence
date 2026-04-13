@@ -308,7 +308,37 @@ CMB Cold Spot корелира със супер-void (Rudnick 2007). Станд
 
 **Интерпретация:** 5% модификация на Λ → 5-25% резолюция на всяка tension → consistent с "part of the story", не "the answer". Ако един параметър затваряше три независими tension напълно — подозрително overfit.
 
-### 21. Статус на резултатите (честна оценка)
+### 21. Sorkin Monte Carlo Simulation
+
+**Резултат:** За Sinha-scale (N = 10⁹) статистическият шум на κ е 3×10⁻⁵.
+- Observed κ = 0.004 е **130σ над нулата**.
+- Ако κ е реален (не systematic): pure QM НЕ МОЖЕ да го обясни статистически.
+- Изисква non-unitary physics ИЛИ systematic errors.
+- Наивна amplitude модификация НЕ генерира κ ≠ 0 (Born rule остава).
+
+### 22. Мета-анализ Robustness (Leave-One-Out)
+
+**Критична находка:** Sigналът зависи силно от Sinha 2010a.
+
+| Анализ | N | κ | p |
+|--------|---|---|---|
+| Full (6 studies) | 6 | 0.00442 | 0.003 |
+| Без Sinha 2010a | 5 | 0.00160 | 0.43 |
+| Без Sinha team | 3 | 0.00067 | 0.78 |
+| **3 Sinha като 1** | **4** | **0.00352** | **0.08** |
+
+**Ревизирана оценка:** κ сигналът е **marginal** (1.7σ) при правилно третиране на correlated measurements, НЕ 3σ.
+
+**НО:** Point estimate 0.00352 остава на 0.14σ от δ² = 0.00379. Консистентността с κ = δ² оцелява, само с по-широки error bars.
+
+**Ревизиран status на трите канала:**
+- δ = 0.062 → DESI fit, Delta AIC = +10.6 (СИЛЕН)
+- γ ≈ 3 → NANOGrav spectral match (КАЧЕСТВЕН ХИТ)
+- κ = δ² → marginal 1.7σ consistency (НЕ СИЛЕН СИГНАЛ)
+
+Нужни: нови Born rule измервания (Kaplan colliders 2025+, Kanthak BEC 2024+) за resolution.
+
+### 23. Статус на резултатите (честна оценка)
 
 **Какво имаме:** Модел, фитнат към DESI BAO, значимо по-добър от ΛCDM. Accommodation, не prediction.
 

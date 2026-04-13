@@ -118,12 +118,24 @@ If three imprints share common branching origin, they must satisfy:
 ### Prediction: kappa = delta^2 (informational ↔ energetic)
 
 With delta = 0.0616 (DESI fit): predicted kappa = 0.00379
-Observed kappa from meta-analysis: 0.00442 +/- 0.00149
-Deviation: 0.4 sigma (consistent)
 
-**Falsification:** If a larger meta-analysis (N > 20 independent Sorkin
-parameter measurements) gives combined kappa outside 0.002-0.006 range,
-the relation is broken.
+**Observed kappa — with robustness caveats:**
+- Naive 6-study meta-analysis: kappa = 0.00442 +/- 0.00149 (0.4σ from δ²)
+- Proper treatment (Sinha 3 = 1 team): kappa = 0.00352 +/- 0.00202 (0.14σ from δ²)
+- Without Sinha 2010a: kappa = 0.00160 (not significant)
+- Without Sinha team entirely: kappa = 0.00067 (no signal)
+
+**Current status: Marginal (1.7σ).** Point estimate consistent with δ²
+but signal driven heavily by Sinha 2010a, which Soellner 2012 noted had
+potential detector non-linearity systematics.
+
+**Resolution required:** New independent measurements:
+- Kaplan & Rajendran 2025 (high-energy colliders)
+- Kanthak et al. 2024 (BEC atom interferometry)
+- Any new photon triple-slit with 10^-4 precision
+
+**Falsification:** If combined kappa from new independent experiments
+(N ≥ 4 teams) settles outside 0.001-0.007 range, the relation is broken.
 
 ### Prediction: gamma = 3 (noise ↔ geometry)
 
