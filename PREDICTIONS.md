@@ -108,3 +108,37 @@ The model is FALSIFIED if:
 | DESI DR3 | 2026-2027 | DH/rd, DM/rd at same z bins with smaller errors |
 | Euclid DR1 cosmology | 2026-2027 | BAO + weak lensing, new z coverage |
 | Roman Space Telescope | 2028-2029 | SNe + BAO at z=1-3, high precision |
+
+---
+
+## Cross-link predictions (added 2026-04-02)
+
+If three imprints share common branching origin, they must satisfy:
+
+### Prediction: kappa = delta^2 (informational ↔ energetic)
+
+With delta = 0.0616 (DESI fit): predicted kappa = 0.00379
+Observed kappa from meta-analysis: 0.00442 +/- 0.00149
+Deviation: 0.4 sigma (consistent)
+
+**Falsification:** If a larger meta-analysis (N > 20 independent Sorkin
+parameter measurements) gives combined kappa outside 0.002-0.006 range,
+the relation is broken.
+
+### Prediction: gamma = 3 (noise ↔ geometry)
+
+From dimensional scaling of Penrose collapse rate with frequency.
+Observed NANOGrav: gamma = 3.2 +/- 0.6
+
+**Falsification:** If the true underlying SGWB spectral index (after
+subtracting confirmed SMBHB contribution) deviates from ~3 by more than
+1, the framework is incompatible.
+
+### Prediction: eps_GW ~ 2 x 10^-8 (noise ↔ energetic)
+
+From matching NANOGrav Omega_GW ~ 10^-9 with delta = 0.062.
+This is phenomenological, not derived.
+
+**Falsification:** If vacuum collapse radiative efficiency can be
+derived from theory and differs from 2 x 10^-8 by many orders, the
+link fails.
