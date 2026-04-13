@@ -208,7 +208,45 @@ H0 (model, delta=0.062) = 68.81 km/s/Mpc (vs LCDM 67.4, SH0ES 73.04).
 Намалява tension-а с 25% (от 5.6 на 4.2 km/s/Mpc). В правилната посока, но недостатъчно.
 При joint fit (delta=-0.095): H0 = 67.4 — без промяна.
 
-### 14. Статус на резултатите (честна оценка)
+### 15. Vacuum Branching Noise — NANOGrav сравнение
+
+**Сметка:** Penrose collapse rate на вакуумни модове под E_crit = 40 MeV, integrated spectrum.
+
+**Резултати:**
+- Spectral index: γ ≈ 3 (от scaling аргумент: R(f)~f, energy~f, dOmega/df~f^2, h_c~const)
+- NANOGrav наблюдава γ = 3.2 ± 0.6 (SMBHB предсказва γ = 4.33)
+- **Нашата форма съвпада по-добре от стандартното обяснение**
+
+**Amplitude:** Ω_GW ≈ 3.7×10⁻² (naive), NANOGrav наблюдава ~10⁻⁹
+- 7 порядъка over — модел убит при буквален прочит
+- НО: не всяка collapse energy отива в GW. Ако efficiency < 10⁻⁷, съвпада
+
+### 16. IGM Heating Check + Количествено Съвпадение
+
+**CSL bound:** dE/dt per baryon < 10⁻³⁴ W (от non-observation на IGM excess heating)
+
+**Нашият модел:**
+- Energy release rate: 6.6×10⁻²⁹ J/m³/s
+- Максимално coupling към бариони: **3.8×10⁻⁷** (строго, но не убийствено)
+- Вакуумни колапси не срещат директно бариони — физически разумно
+
+**КЛЮЧОВО КОЛИЧЕСТВЕНО СЪВПАДЕНИЕ:**
+- Integrated collapse energy over cosmic history: 2.87×10⁻¹¹ J/m³ = **4.8% от Λ**
+- DESI fit ни даде δ = 0.062 = **6.2% Λ еволюция**
+- Независими сметки (макро vs микро) дават **същите числа** (~5%)
+
+**Интерпретация:** Λ има два компонента:
+- Постоянен "фон" (~95%)
+- Branching-driven еволюиращ компонент (~5%)
+
+**Три независими канала сочат в една посока:**
+1. DESI fit (δ ≈ 5%)
+2. Penrose tension calculation (интеграл ≈ 5% от Λ)
+3. NANOGrav spectral index (γ ≈ 3)
+
+Може да е numerology. Може и не.
+
+### 17. Статус на резултатите (честна оценка)
 
 **Какво имаме:** Модел, фитнат към DESI BAO, значимо по-добър от ΛCDM. Accommodation, не prediction.
 
